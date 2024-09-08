@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    /* text-align: center; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+form{
+   display: block;
+   margin: 0 auto;
+   
+}
+input {
+    width: 94%;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    align-self: center;
+   
+}
+.transformers div{
+background-color: #F5F5DC;
+min-height: 35px;
+position: relative;
+width: 94%;
+margin: 2rem 1rem;
+}
+label{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: -10px;
+    left: 10px;
+    padding: 0px 8px;
+   
+}
+.transformers div span{
+display: block;
+text-align: left;
+padding-top: 10px;
+padding-left: 8px;
+font-size: 1.3rem;
+}
